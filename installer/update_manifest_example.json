@@ -1,0 +1,35 @@
+{
+  "latest_version": "1.0.1",
+  "update_url": "https://api.github.com/repos/your-repo/coomer-betterui/releases/latest",
+  
+  "full_installer": {
+    "1.0.1": {
+      "url": "https://github.com/your-repo/coomer-betterui/releases/download/v1.0.1/CoomerBetterUI-1.0.1-Setup.exe",
+      "checksum": "sha256:abcdef123456...",
+      "size": 156789012,
+      "changelog": "## Version 1.0.1\n\n### New Features\n- AI-powered thumbnail generation\n- Enhanced gallery view\n\n### Bug Fixes\n- Fixed video playback issues\n- Improved caching performance\n\n### Improvements\n- Faster download speeds\n- Better error handling",
+      "release_date": "2025-01-15",
+      "min_version": "0.0.0"
+    }
+  },
+  
+  "patch_updates": {
+    "1.0.1": {
+      "url": "https://github.com/your-repo/coomer-betterui/releases/download/v1.0.1/CoomerBetterUI-1.0.1-Patch.exe",
+      "checksum": "sha256:fedcba654321...",
+      "size": 12345678,
+      "changelog": "## Patch 1.0.1\n\n### Bug Fixes\n- Fixed crash when downloading large files\n- Corrected thumbnail generation timing\n\n### Improvements\n- Optimized memory usage\n- Improved error messages",
+      "release_date": "2025-01-15",
+      "from_version": "1.0.0"
+    }
+  },
+  
+  "metadata": {
+    "check_interval_hours": 24,
+    "supported_platforms": ["Windows 10", "Windows 11"],
+    "min_supported_version": "0.9.0",
+    "deprecation_warnings": {
+      "0.9.0": "Version 0.9.0 will lose support on 2025-03-01. Please update to 1.0.0 or later."
+    }
+  }
+}

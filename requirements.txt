@@ -1,0 +1,17 @@
+PyQt6>=6.6.0
+PyQt6-WebEngine>=6.6.0
+requests>=2.31.0
+ijson>=3.2.0
+PySocks>=1.7.1
+pillow>=10.1.0
+ffmpeg-python>=0.2.0
+cryptography>=41.0.7
+beautifulsoup4>=4.12.2
+aiohttp>=3.9.1
+aiohttp-socks>=0.8.4
+qasync>=0.27.1
+keyring>=24.3.0
+packaging>=23.2
+pyinstaller>=6.3.0
+qtawesome>=1.4.0
+python-mpv>=0.10.0
